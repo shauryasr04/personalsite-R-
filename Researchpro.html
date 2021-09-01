@@ -45,7 +45,7 @@ img {
     <i class="fa fa-user w3-xxlarge"></i>
     <p>BLOG</p>
   </a>
-  <a href="shauryaresume.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="shauryaresume.pdf" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>RESUME</p>
   </a>
@@ -65,19 +65,20 @@ img {
   </div>
 </div>
 <div class="main">
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+<!-- <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
     <div class="w3-display-left w3-text-white" style="padding:550px">
       <p><a href="nfl.com" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Visit now!</a></p>
     </div> 
+</header> -->
 </div>
-    </header>
-<img src="https://mail.google.com/mail/u/0?ui=2&ik=64a6ae040c&attid=0.1.1&permmsgid=msg-f:1709462307595642607&th=17b93ae9612866ef&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9x8HLJyY4rroecEKumSMWFKahVJcXpg_GzfVz60Z5bBudV8Xf9ugMYYulYI4a_6doJLrjnrjPJ-Ycy02dT-T6X5FpvixYggqz1RNcLDzUD9YV4e_6h-Ha-fy8&disp=emb" alt="boy" class="w3-image" width="500" height="500"></img>
-  <div class="main">
+<p> 
+<div class="main">
       <p>I developed this web application using Python's Flask feauture. This helped me get the web application set up so I could then execute the main "snippet" of the code. The first step I did was gain access to the Bing API, as that was an easy API to get access to because I already had a subscription key. 
         I then used python to do the majority of the web scraping, using scrapy to do so. Using the Bing API, with the inputted "field" and "university", the computer would do the bing search for you and would read through the first four websites and extract text from those websites.
         After that, I  used python's spacy to import the NLP software that would do most of the sorting work. I imported the larger model of the NLP. With the extracted text, all that was left was for the NLP to sort it out. 
         Using the NLP, I was able to identify which parts of the text were labeled with a "Person" entity. 
         If a specific string had a "PERSON" entity, I would add that to a brand new arrayList, which is what I would print out in the second page. I ran all of this NLP work in multiple, recursive for loops, so that the results can be as accurate as possible. </p>
   </div>
+</p>
 </body>
 </html>
