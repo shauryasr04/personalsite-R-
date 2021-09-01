@@ -7,28 +7,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-  .typewriter h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid white; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: white; }
-}
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
@@ -41,7 +19,46 @@ img {
   float: left;
   margin: 5px 22px;
 }
+#typing {
 
+            width: 0ch;
+            color: white;
+            float: left;
+            font-family: sans-serif;
+            font-weight:bold;
+            font-size: 60px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 5s steps(22) 1s infinite alternate;
+        }
+        #typing span{
+        color:red;}
+
+        #crow {
+            float: left;
+
+      color: white;
+            font-family: consolas;
+            font-weight:bold;
+            font-size: 60px;
+            animation: crow 0.5s linear 0s infinite;
+        }
+        @keyframes typing {
+            from {
+                width: 0ch;
+            }
+            to {
+                width: 25ch;
+            }
+        }
+        @keyframes crow {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
 </style>
 <body class="w3-black">
 
@@ -78,10 +95,12 @@ img {
 
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
+  <!-- Header/Home 
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo" class="line anim-typewriter"><span class="w3-hide-small"> Shaurya Srivastava</h1>
-  </header>
+    <h1 class="w3-jumbo"><span class="w3-hide-small"> Shaurya Srivastava</h1>
+  </header> -->
+  <div id="typing">SHAURYA <span>SRIVASTAVA</span></div>
+  <div id="crow">|</div>
 
   <div style="float: left;";>
     <p style="float: left;"><img src="sh.jpg" alt = "boy" class = "w3-image" height="400" width="400"> </p>
