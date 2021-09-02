@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>Shaurya Srivastava</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: rgb(177,9,9);}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+
+.main {
+    margin-left: 120px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+img {
+  float: left;
+  margin: 5px 500px;
+}
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://edsurge.imgix.net/uploads/post/image/13610/diverse_students_for_workforce-1597255295.jpg?auto=compress%2Cformat&w=640&h=259&fit=crop");
+  min-height: 100%;
+}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="Blogattempt.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>BLOG</p>
+  </a>
+  <a href="shauryaresume.pdf" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>RESUME</p>
+  </a>
+  <a href="Researchpro.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img style="float:left; margin: 5px 22px;" src="https://www.pngplay.com/wp-content/uploads/1/Letter-R-PNG-Stock-Photo.png" alt="boy" class="w3-image" width="30" height="30"></img>
+    <p>RESEARCHPRO</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="Shauryaweb.html" class="w3-bar-item w3-button" style="width:30% !important">HOME</a>
+    <a href="shauryawebabout.html" class="w3-bar-item w3-button" style="width:30% !important">BLOG</a>
+    <a href="shauryaresume.pdf" class="w3-bar-item w3-button" style="width:30% !important">RESUME</a>
+    <a href="Researchpro.html" class="w3-bar-item w3-button" style="width:30%" style="text-align: center;">RESEARCHPRO</a>
+  </div>
+</div>
+<div class="main">
+<!-- <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-left w3-text-white" style="padding:550px">
+      <p><a href="nfl.com" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Visit now!</a></p>
+    </div> 
+</header> -->
+</div>
+<p> 
+<div class="main">
+      <p>I developed this web application using Python's Flask feauture. This helped me get the web application set up so I could then execute the main "snippet" of the code. The first step I did was gain access to the Bing API, as that was an easy API to get access to because I already had a subscription key. 
+        I then used python to do the majority of the web scraping, using scrapy to do so. Using the Bing API, with the inputted "field" and "university", the computer would do the bing search for you and would read through the first four websites and extract text from those websites.
+        After that, I  used python's spacy to import the NLP software that would do most of the sorting work. I imported the larger model of the NLP. With the extracted text, all that was left was for the NLP to sort it out. 
+        Using the NLP, I was able to identify which parts of the text were labeled with a "Person" entity. 
+        If a specific string had a "PERSON" entity, I would add that to a brand new arrayList, which is what I would print out in the second page. I ran all of this NLP work in multiple, recursive for loops, so that the results can be as accurate as possible. </p>
+  </div>
+</p>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<title>Shaurya Srivastava</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: rgb(177, 9, 9);}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+img {
+  float: left;
+  margin: 5px 22px;
+}
+#typing {
+
+            width: 0ch;
+            color: white;
+            float: left;
+            font-family: sans-serif;
+            font-weight:bold;
+            font-size: 60px;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 5s steps(22) 1s infinite alternate;
+        }
+        #typing span{
+        color:red;}
+
+        #crow {
+            float: left;
+
+      color: white;
+            font-family: consolas;
+            font-weight:bold;
+            font-size: 60px;
+            animation: crow 0.5s linear 0s infinite;
+        }
+        @keyframes typing {
+            from {
+                width: 0ch;
+            }
+            to {
+                width: 25ch;
+            }
+        }
+        @keyframes crow {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="shauryawebabout.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>BLOG</p>
+  </a>
+  <a href="shauryaresume.pdf" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>RESUME</p>
+  </a>
+  <a href="Researchpro.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="https://www.pngplay.com/wp-content/uploads/1/Letter-R-PNG-Stock-Photo.png" alt="boy" class="w3-image" width="30" height="30"></img>
+    <p>RESEARCHPRO</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="Shauryaweb.html" class="w3-bar-item w3-button" style="width:30% !important">HOME</a>
+    <a href="shauryawebabout.html" class="w3-bar-item w3-button" style="width:30% !important">BLOG</a>
+    <a href="shauryaresume.pdf" class="w3-bar-item w3-button" style="width:30% !important">RESUME</a>
+    <a href="Researchpro.html" class="w3-bar-item w3-button" style="width:30%" style="text-align: center;">RESEARCHPRO</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home 
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"> Shaurya Srivastava</h1>
+  </header> -->
+  <div style="text-align: center;" id="typing">SHAURYA <span>SRIVASTAVA</span></div>
+  <div id="crow">|</div>
+
+  <div style="float: left;";>
+    <p style="float: left;"><img src="sh.jpg" alt = "boy" class = "w3-image" height="400" width="400"> </p>
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:0px" class="w3-opacity">
+    <p> I am a high school student interested in computer science, economics, and finance. I look to work in a bridge between those fields in my high school career. Apart from my academic interests, I
+      am an avid runner, specializing in distance running ever since I was in middle school. I also love to public speak, participating in National Model UN conferences ever since my freshman year. 
+    </p>    
+</div>
+<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+  <h2 class="w3-jumbo"><span class="w3-hide-small"> Key Experiences</h2>
+</header>
+
+<div style= "float:center; align-items: center;" class="w3-row-padding w3-center w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card w3-container" style="min-height:460px">
+    <h3>Studied at the Wharton Data Science Academy</h3><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UPenn_shield_with_banner.svg/1200px-UPenn_shield_with_banner.svg.png" alt="boy" class="w3-image" width="300" height="100"></img>
+    <p>Learned How to Conduct an Exploratory Data Analysis</p>
+    <p>Used the Ridge and LASSO regression models to conduct data analysis</p>
+    <p>Used Data Analysis to research the Bitcoin Index</p>
+    <p>Used Ridge and LASSO regression models to determine to help predict BTC prices in upcoming days</p>
+    </div>
+  </div>
+
+  <div style= "float:center; align-items: center;"  class="w3-third">
+    <div class="w3-card w3-container" style="min-height:460px">
+    <h3>Certificiation in Python Data Science 101</h3><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/EdX_Logo.PNG" alt="boy" class="w3-image" width="300" height="100"></img>
+    <p>Took an Online Course for Data Science</p>
+    <p><a href = "https://courses.edx.org/certificates/8b07a15a17204157bee6781477aeab36"> Link to Certification </a></p>
+    </div>
+  </div>
+
+  <div style= "float:center; align-items: center;"class="w3-third">
+    <div class="w3-card w3-container" style="min-height:460px">
+    <h3>Apprentice and Data Science Intern at Parabole.ai</h3><br>
+    <img src="https://image4.owler.com/logo/mindparabole_owler_20190606_201822_original.png" alt="boy" class="w3-image" width="400" height="50"></img>
+    <p>In charge of the Technology Department of the ESG Program</p>
+    <p>NLP Researacher</p>
+    <p>Coordinates with other members to extract data using artifical intelligience for the company's projects</p>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
