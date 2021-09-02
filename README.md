@@ -1,2 +1,6 @@
-# personalsite
-My own site which has my resume, activities, blog, etc. 
+# JohnDoe
+A Responsive Free One Page Portfolio Website template
+
+
+
+
