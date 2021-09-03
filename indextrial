@@ -163,9 +163,11 @@
 				</div>
 				<div class="col-md-6 about-text">
 					<h6>Software Developer/Data Science Student</h6><!-- headline-->
-					<p>I received a Python Data Science 101 Certification from EdX in December 2020. Apart from that, I selected to attend the Wharton Data Science Academy in the Summer of 2021. There, I learned about the basics of Data Science,
+					<p>I received a Python Data Science 101 Certification from EdX in December 2020. Apart from that, I was one of the 90 students
+            globally to have atteneded the Wharton Data Science Academy in the Summer of 2021. There, I learned about the basics of Data Science,
             ranging from Linear and LASSO regression to conduncting an exploratory data analysis. I also conducted a research project on the Bitcoin Stock
-            Index and worked to predict future prizes. 
+            Index and worked to predict future prizes. On top of the Data Science Academy, I studied at the Futures of the Business World Program, learning
+            about how to integrate technology into the business world. 
           </p><br><!-- About Text 1 -->
 					<a href="https://courses.edx.org/certificates/8b07a15a17204157bee6781477aeab36" class="weight-outline-btn">View Certification</a><!-- read more button  -->			
 				</div>
@@ -175,8 +177,10 @@
 				<div class="col-md-6 about-text">
 					<h6>Developer of ResearchPro</h6><!-- Headline -->
 					<p>With help, I was able to create a web application that gives the user a list of professors that they can contact from a specific school for an internship. I made this using artificial intelligence, python, and a combination of HTML and CSS
-            I used python's  scrapy to do the majority of the web scraping. Using the inputted "field" and "university", the computer would do a bing search for you through its API and would read through the first four websites and extract text from them.
-        After that, I imported NLP software which would distinguish names from the text. With the extracted text, all that was left was for the NLP to sort it out. 
+            I developed this web application using Python's Flask feauture. This helped me get the web application set up so I could then execute the main "snippet" of the code. The first step I did was gain access to the Bing API, as that was an easy API to get access to because I already had a subscription key. 
+        I then used python to do the majority of the web scraping, using scrapy to do so. Using the Bing API, with the inputted "field" and "university", the computer would do the bing search for you and would read through the first four websites and extract text from those websites.
+        After that, I  used python's spacy to import the NLP software that would do most of the sorting work. I imported the larger model of the NLP. With the extracted text, all that was left was for the NLP to sort it out. 
+        Using the NLP, I was able to identify which parts of the text were labeled with a "Person" entity. 
         If a specific string had a "PERSON" entity, I would add that to a brand new arrayList, which is what I would print out in the second page. I ran all of this NLP work in multiple, recursive for loops, so that the results can be as accurate as possible. 
           </p><br><!-- About Text 2 -->
 					<a href="www.researchpro.app" class="weight-outline-btn">Visit ResearchPro</a>	<!-- read more button  -->				
@@ -209,7 +213,7 @@
 		    <!-- Headline -->
             <div class="row">
               <h1 class="arrow">
-              <span>Photos</span>
+                Recent <span>Projects</span>
               </h1>
             </div>
           </div>
