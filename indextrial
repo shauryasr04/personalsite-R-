@@ -186,7 +186,7 @@
 					<a href="www.researchpro.app" class="weight-outline-btn">Visit ResearchPro</a>	<!-- read more button  -->				
 				</div>
 				<div class="col-md-6 nopadding features-intro-img">
-					<div class="about-image" style="background-image:url(img/RProLogo.png)"></div><!-- about image 2 -->
+					<div class="about-image" style="background-image:url(img/RProLogo.png); height: 200; width: 400;"></div><!-- about image 2 -->
 				</div>
 			</div>
 			<!-- About 3 -->
